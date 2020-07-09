@@ -1,10 +1,10 @@
 #write your code here
 
 def countdown
-  ball = 10
-  while ball != 0
-    puts "#{ball} SECOND(S)!"
-    ball -= 1
+  seconds = 10
+  while seconds != 0
+    puts "#{seconds} SECOND(S)!"
+    seconds -= 1
   end
   return "HAPPY NEW YEAR!"
 end
